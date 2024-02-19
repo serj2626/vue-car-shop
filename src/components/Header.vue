@@ -33,7 +33,10 @@
               rounded-lg hover:text-orange-600">
               <RouterLink :to="{ 'name': 'faq' }" class="">FAQ</RouterLink>
             </p>
-            <a href="#" class="text-gray-800  font-semibold  hover:text-orange-600">О нас</a>
+            <p class="text-gray-800 font-semibold no-underline px-4 py-2 
+              rounded-lg hover:text-orange-600">
+              <RouterLink :to="{ 'name': 'about' }" class="">О нас</RouterLink>
+            </p>
           </div>
 
           <div class="hidden sm:flex sm:items-center">

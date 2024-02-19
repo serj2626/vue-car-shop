@@ -23,8 +23,9 @@ import Footer from './components/Footer.vue'
 <style scoped>
 .app {
   background-color: rgb(238, 113, 55);
-  min-height: 90vh;
   overflow: hidden;
+  min-height: 90vh;
+  box-sizing: border-box;
 
 }
 </style>
